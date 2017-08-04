@@ -1,6 +1,14 @@
 body {
     max-width: 590px;
 }
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-image: url(/images/background.png);
+    
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -12,19 +20,6 @@ header img{
     height: 100%;    
 }
 
-.social-icon-box img{
-   width:35px;
-   margin: 0 auto;
-   white-space: nowrap;
-
-}
-
-
-#container {
-   display: flex;
-   justify-content: center;
-   
-}
 .menu {
     display: flex;
     justify-content: center;
@@ -45,12 +40,7 @@ a {
 }
 
 
-body {
-    max-width: 900px;
-    margin: 0 auto;
-    background-image: url(/images/background.png);
-    
-}
+
 
 
 table {
@@ -76,3 +66,21 @@ td {
   padding: 10px 15px;
 }
 tr:hover td {background: #e8edff;}
+
+#container-social-icon-box {
+   display: flex;
+   justify-content: center;
+   
+}
+
+.social-icon-box img{
+   width:35px;
+   margin: 0 auto;
+   white-space: nowrap;
+}
+
+.legal-text {
+    font-size: 14px;
+   color:#7c7c7c;
+   text-align:center;
+}
