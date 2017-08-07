@@ -45,6 +45,58 @@ body {
     background-image:url(https://og1rock.github.io/mainproject/images/background.png);
 }
 
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left-side {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-item {
+    height: 58px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    margin-bottom: 20px;
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.messege-item {
+    height: 180px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    margin-bottom: 20px;
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+label {
+    padding: 5px 5px 5px 5px;
+}
+
 #container-social-icon-box {
    display: flex;
    justify-content: center;

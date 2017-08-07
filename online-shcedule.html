@@ -37,7 +37,27 @@
         </ul>
     </nav>
     <main>
-        
+        <form method="POST" action="https://formspree.io/sc.muska@gmail.com">
+            <div class='left-side'>
+            <label>
+                <input type="text" name="client-name" required placeholder ="Имя" class = "form-item">
+            </label>
+            <label>
+                <input type="text" name="phone" required placeholder="Номер в формате +380" pattern="[+]{1}[0-9]{12}"  class = "form-item">
+            </label>
+            <label>
+                <input type="email" name="email" required placeholder="Email"  class = "form-item">
+            </label>
+            </div>
+            <div class='right-side'>
+                <label>
+                <input type="text" name="messege" required placeholder ="Сообщение"  class = "messege-item">
+                </label>
+                <input type="submit" value="Отправить" class="button" >
+            </div>   
+                
+             
+        </form>
     </main>
      <footer>
         <div id="container-social-icon-box">
@@ -47,7 +67,9 @@
             <a href="https://instagram.com/"><img src="images/instalogo.png" alt = "Ссылка на instagram"></a>
         </div>
         </div>
-       
+        <p class="legal-text">
+            Yehor Shantarin © 2017
+        </p>
     </footer>
 </body>
 </html>
